@@ -4,7 +4,7 @@
   "description": "Continuously import App Stores metrics (score, ratings, reviews, app version, etc.) from the Apple App Store and Google Play Store to a DOMO Dataset",
   "private": true,
   "scripts": {
-    "start": "node src/exporter",
+    "start": "node src/index",
     "pretest": "./node_modules/.bin/eslint ./src",
     "test": "./node_modules/.bin/mocha --reporter spec",
     "test:coverage": "./node_modules/.bin/nyc npm test",
@@ -15,7 +15,7 @@
     "prepare": "npm run snyk-protect"
   },
   "bin": {
-    "appstores-data": "./src/exporter.js"
+    "appstores-data": "./src/index.js"
   },
   "repository": {
     "type": "git",
