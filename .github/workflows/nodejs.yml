@@ -90,7 +90,7 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     needs:
-      - code-quality
+      # - code-quality
       - code-security
     if: github.ref == 'refs/heads/master'
 
