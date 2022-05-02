@@ -92,7 +92,7 @@ jobs:
     needs:
       - code-quality
       - code-security
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
 
     steps:
       - name: Checkout
