@@ -1,7 +1,7 @@
 {
   "repositoryUrl": "https://github.com/timoa/app-stores-domo-data-collection.git",
   "branches": [
-    "master",
+    "main",
     "develop"
   ],
   "tagFormat": "v${version}",
