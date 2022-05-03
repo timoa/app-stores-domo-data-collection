@@ -26,14 +26,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # - name: Run Unit-Tests + Code Coverage
-      #   run: npm run test:coverage
+      - name: Run Unit-Tests + Code Coverage
+        run: npm run test:coverage
 
-      # - name: Save Code Coverage
-      #   uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535 # tag=v3.0.0
-      #   with:
-      #     name: code-coverage
-      #     path: coverage
+      - name: Save Code Coverage
+        uses: actions/upload-artifact@6673cd052c4cd6fcf4b4e6e60ea986c889389535 # tag=v3.0.0
+        with:
+          name: code-coverage
+          path: coverage
 
   # -- SONARCLOUD -------------------------------------------------------------
   code-quality:
@@ -45,11 +45,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748 # tag=v3.0.1
 
-      # - name: Download Code Coverage
-      #   uses: actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741 # tag=v3.0.0
-      #   with:
-      #     name: code-coverage
-      #     path: coverage
+      - name: Download Code Coverage
+        uses: actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741 # tag=v3.0.0
+        with:
+          name: code-coverage
+          path: coverage
 
       - name: Get App Version
         run: ./scripts/version.sh
