@@ -1,5 +1,5 @@
 {
-  "name": "app-stores-domo-data-collection",
+  "name": "app-stores-domo-dataset",
   "version": "0.2.8",
   "description": "Continuously import App Stores metrics (score, ratings, reviews, app version, etc.) from the Apple App Store and Google Play Store to a DOMO Dataset",
   "private": true,
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timoa/app-stores-domo-data-collection.git"
+    "url": "git+https://github.com/timoa/app-stores-domo-dataset.git"
   },
   "keywords": [
     "domo",
@@ -35,9 +35,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timoa/app-stores-domo-data-collection/issues"
+    "url": "https://github.com/timoa/app-stores-domo-dataset/issues"
   },
-  "homepage": "https://github.com/timoa/app-stores-domo-data-collection#readme",
+  "homepage": "https://github.com/timoa/app-stores-domo-dataset#readme",
   "dependencies": {
     "@snyk/protect": "1.915.0",
     "app-store-scraper": "0.17.0",

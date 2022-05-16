@@ -6,7 +6,7 @@ LABEL maintainer="Damien Laureaux <d.laureaux@timoa.com>" \
       org.label-schema.name="App stores DOMO Data Collection" \
       org.label-schema.description="App stores DOMO Data Collection" \
       org.label-schema.url="https://timoa.com" \
-      org.label-schema.vcs-url="https://github.com/timoa/app-stores-domo-data-collection" \
+      org.label-schema.vcs-url="https://github.com/timoa/app-stores-domo-dataset" \
       org.label-schema.version=latest \
       org.label-schema.schema-version="1.0"
 
