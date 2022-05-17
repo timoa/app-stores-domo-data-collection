@@ -1,3 +1,10 @@
+## [0.2.9](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.8...v0.2.9) (2022-05-17)
+
+
+### Bug Fixes
+
+* **project:** change repository name ([88284f4](https://github.com/timoa/app-stores-domo-dataset/commit/88284f4d7031c1471950131c7c04f1936a9bf8da))
+
 ## [0.2.8](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.7...v0.2.8) (2022-05-16)
 
 
