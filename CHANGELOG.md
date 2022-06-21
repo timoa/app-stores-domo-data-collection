@@ -1,3 +1,10 @@
+## [0.2.31](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.30...v0.2.31) (2022-06-21)
+
+
+### Bug Fixes
+
+* **cicd:** update the label name for the dependencies ([f5f1884](https://github.com/timoa/app-stores-domo-dataset/commit/f5f1884af3e2a28136cfe7314274dcc466feecff))
+
 ## [0.2.30](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.29...v0.2.30) (2022-06-17)
 
 
