@@ -1,3 +1,10 @@
+## [0.2.100](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.99...v0.2.100) (2022-10-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @snyk/protect to v1.1029.0 ([9a2ad30](https://github.com/timoa/app-stores-domo-dataset/commit/9a2ad30d598f557e286d720b82a891fc733f9728))
+
 ## [0.2.99](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.98...v0.2.99) (2022-10-27)
 
 
