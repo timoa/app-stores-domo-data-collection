@@ -1,3 +1,10 @@
+## [0.2.174](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.173...v0.2.174) (2023-04-08)
+
+
+### Bug Fixes
+
+* **project:** remove Snyk integration ([d927680](https://github.com/timoa/app-stores-domo-dataset/commit/d92768026fbdf326e8c36ed005e4cbc165e41f85))
+
 ## [0.2.173](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.172...v0.2.173) (2023-04-07)
 
 
