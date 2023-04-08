@@ -10,9 +10,7 @@
     "test:coverage": "./node_modules/.bin/nyc npm test",
     "test:functional": "./node_modules/.bin/mocha --reporter spec ./test/functional",
     "test:all": "./node_modules/.bin/run-s test:coverage",
-    "docker:status": "node src/healthcheck",
-    "snyk-protect": "snyk-protect",
-    "prepare": "npm run snyk-protect"
+    "docker:status": "node src/healthcheck"
   },
   "bin": {
     "appstores-data": "./src/index.js"
@@ -39,7 +37,6 @@
   },
   "homepage": "https://github.com/timoa/app-stores-domo-dataset#readme",
   "dependencies": {
-    "@snyk/protect": "1.1126.0",
     "app-store-scraper": "0.17.0",
     "google-play-scraper": "8.1.0",
     "uuid": "8.3.2",
