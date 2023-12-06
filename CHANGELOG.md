@@ -1,3 +1,10 @@
+## [0.2.178](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.177...v0.2.178) (2023-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency app-store-scraper to v0.18.0 ([93d60db](https://github.com/timoa/app-stores-domo-dataset/commit/93d60db891f91a6884fd00071632167302c99ce3))
+
 ## [0.2.177](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.176...v0.2.177) (2023-10-22)
 
 
