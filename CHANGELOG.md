@@ -1,3 +1,10 @@
+## [0.2.180](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.179...v0.2.180) (2024-04-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency winston to v3.12.1 ([ff74031](https://github.com/timoa/app-stores-domo-dataset/commit/ff74031038382052eb2a415558b963d281008dfb))
+
 ## [0.2.179](https://github.com/timoa/app-stores-domo-dataset/compare/v0.2.178...v0.2.179) (2024-03-19)
 
 
